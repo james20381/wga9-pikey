@@ -1,0 +1,125 @@
+
+#mainNav {
+   
+    // Slide Up/Down the Navbar
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    top: -150px;
+    width: 100%;
+    transition: top ease-out 0.7s;
+    // @include transition-all;
+
+    .navbar-nav {
+      > li.nav-item {
+         > a.nav-link,
+        > a.nav-link:focus {
+          font-size: 1rem;
+          letter-spacing: .1rem;
+          font-weight: 700;
+          color: black;
+          &:hover {
+            color: #656565;
+            font-weight: 700;
+            // border-bottom: 3px solid #fba35b;
+          }
+          &.active {
+            color: #656565 !important;
+            font-weight: 700;
+            
+
+            @include media-breakpoint-up(lg) {
+              &.active {
+                border-bottom: 2px solid #7b7b7b;
+              }
+            }
+          }
+        }
+      
+
+      // Sliding Underline
+      
+      @include media-breakpoint-up(lg) {
+        .link{
+          position: relative;
+        }
+  
+        .link:after{
+          content: '';
+          position: absolute;
+          width: 0; 
+          height: 2px;
+          display: block;
+          margin-top: 5px;
+          right: 0;
+          background: #7b7b7b;
+          transition: width .2s ease;
+          -webkit-transition: width .2s ease;
+        }
+         
+        .link:hover:after{
+          width: 100%;
+          left: 0;
+          background: #7b7b7b;
+        }
+  
+        .link:active:after{
+          width: 100%;
+          left: 0;
+          background: #7b7b7b;
+        }
+      }
+
+     
+
+    }
+
+      
+
+      
+    }
+
+    .navbar-nav {
+      padding: 1rem 0 0;
+    }
+
+
+    @media (min-width: 992px) {
+
+      .navbar-nav {
+        padding: 0;
+      }
+    
+      .navbar-nav > li.nav-item > a.nav-link {
+        // Align padding to sliding underline
+        padding: 0.3rem 0;
+        margin: 0 0 0 1rem;
+      }
+    
+        // .navbar-nav > li.nav-item > a.nav-link,
+        // .navbar-nav > li.nav-item > a.nav-link:focus {
+        //   color: $gray-900;
+        //   &:hover {
+        //     color: $primary;
+        //   }
+        // }
+    
+    }
+  }
+
+  .svg {
+    width: 5rem;
+    height: auto;
+  }
+
+  @include media-breakpoint-up(md) {
+    .svg {
+      width: 6rem;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    .svg {
+      width: 8rem;
+    }
+  }
+  

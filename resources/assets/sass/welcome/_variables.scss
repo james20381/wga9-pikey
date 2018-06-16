@@ -1,0 +1,69 @@
+
+// Body
+$body-bg: #fff;
+
+
+// Colors
+$primary: #34383a;
+
+
+$font-size-base: 1rem; // Assumes the browser default, typically `16px`
+
+
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge((
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3)
+), $spacers);
+
+
+
+// Typography
+$headings-font-family:   'Open Sans Condensed', sans-serif;
+$headings-font-weight:   700;
+$headings-color:         $primary;
+$headings-margin-bottom: ($spacer * 2);
+
+$body-font-family:       'Roboto', sans-serif; 
+$navbar-font-family:     'Open Sans Condensed', sans-serif;
+$navbar-font-color:      $primary;
+$line-height-base:       1.6;
+
+$h1-font-size:           $font-size-base * 2.375;
+$h2-font-size:           $font-size-base * 1.75;
+$h3-font-size:           $font-size-base * 1.75;
+$h4-font-size:           $font-size-base * 1.5;
+$h5-font-size:           $font-size-base * 1.25;
+$h6-font-size:           $font-size-base;
+
+// Navbar
+// $navbar-padding-x:          1.25rem;
+// $navbar-padding-y:          3rem;
+// $navbar-light-color:     rgba(black, 1);
+// $navbar-light-hover-color: 700;
+
+// Sections
+$section-padding:        7rem 0.9375rem;
+
+// Buttons
+$enable-rounded:         false;
+$btn-font-size-md:       0.9375rem;
+$btn-padding-md:         0.9375rem 1.375rem;
+$btn-background:         #7b7b7b;
+
+
+// Icons
+
+$icon-col-padding:       ($spacer * 12);
+$icon-height:             8rem;
+
+
+// Text Columns
+
+$text-col-padding:       12rem;
+

@@ -1,0 +1,48 @@
+
+// Fonts
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,400');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Sunflower:300');
+
+// Variables
+
+@import "global-variables";
+
+@import "welcome/variables";
+
+
+// Bootstrap
+
+@import '~bootstrap/scss/bootstrap';
+
+@import 'welcome/mixins';
+
+@import 'global';
+
+@import 'welcome/global';
+
+@import 'welcome/navbar';
+
+@import 'welcome/carousel';
+
+@import 'welcome/welcome';
+
+@import 'welcome/gallery';
+
+@import 'footer';
+
+// .navbar-laravel {
+//   background-color: #fff;
+//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+// }
+
+/* Show it is fixed to the top */
+// body {
+//   min-height: 75rem;
+//   padding-top: 4.5rem;
+// }
+

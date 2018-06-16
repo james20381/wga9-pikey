@@ -1,0 +1,56 @@
+// p {
+//     font-size: .8rem;
+// }
+
+// Colors
+$primary: #34383a;
+
+
+
+$font-size-base: 1rem;
+
+
+
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge((
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3)
+), $spacers);
+
+
+
+// Change Bootstrap's $lead-font-size to $font-size-base
+
+$lead-font-size: $font-size-base; 
+
+
+
+$paragraph-margin-bottom: 2rem;
+
+
+
+// Navbar
+
+$navbar-padding-y: ($spacer * 1);
+$navbar-padding-x: ($spacer * 1);
+
+
+// $navbar-padding: 1.25rem 1.25rem;
+
+
+
+$body-font-family:       'Roboto', sans-serif; 
+$navbar-font-family:     'Open Sans', sans-serif;
+$navbar-font-color:      $primary;
+
+
+// Links
+
+// $link-color:       $primary;
+// $link-hover-color: lighten($link-color, 30%);
+

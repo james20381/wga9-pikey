@@ -1,0 +1,51 @@
+body, html {
+    font-family: $body-font-family;
+    height: 100%;
+    width: 100%;
+    line-height: 1.8;
+}
+
+.btn-md {
+    @include btn-md;
+    
+    &:hover {
+        @include hover-focus {
+            // text-decoration: none;
+            background: darken( $btn-background, 5% );
+          }
+    }
+}
+
+.icon-col {
+    padding: 0 $icon-col-padding;
+}
+
+.icon {
+    height: $icon-height;
+}
+
+.text-col {
+    padding: 0 6rem;
+}
+
+@include media-breakpoint-up(sm) {
+    .text-col {
+        padding: 0 $text-col-padding;
+    }
+    
+  }
+
+  @include media-breakpoint-up(md) {
+    .text-col {
+        padding: 0 12rem;
+    }
+    
+  }
+
+  @include media-breakpoint-up(lg) {
+    .text-col {
+        padding: 0 4rem;
+    }
+    
+  }
+

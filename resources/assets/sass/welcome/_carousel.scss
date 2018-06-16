@@ -1,0 +1,133 @@
+
+// The Carousel
+
+  // .header-img {
+  //   background: black;
+  //   height: 100vh;
+  //   width: 100%;
+  //   background-size: cover;
+	//   background-position: center center;
+	//   background-repeat: no-repeat;
+  // }
+
+  // .slide-1 {
+  //   background-image: url("/../img/video/farm.mp4");
+  // }
+
+  // .slide-2 {
+  //   background-image: url("/../img/carousel/new-grain-xs.jpg");
+  // }
+
+  // .slide-3 {
+  //   background-image: url("/../img/carousel/silos-xs.jpg");
+  // }
+
+  // .slide-4 {
+  //   background-image: url("/../img/carousel/spike-xs.jpg");
+  // }
+
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .3);
+  }
+  
+
+  .carousel-fade {
+  .carousel-item {
+    opacity: 0;
+    transition-duration: 3s;
+    transition-property: opacity;
+  }
+}
+
+// .carousel-item {
+//   position: relative;
+// }
+
+
+
+// The Hero
+
+.hero {
+ 
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -40%);
+  width: 80%;
+  
+  .logo-hero-svg {
+    width: 10rem;
+    margin-left: 2.1rem;
+  }
+
+  // @media screen and (min-width: 768px) {
+  //   img {
+  //     width: 30rem;
+  //     margin-left: 5rem;
+  //   }
+  // }
+
+  @include media-breakpoint-up(md) {
+   .logo-hero-svg {
+     width: 25rem;
+     margin-left: 5rem;
+   }
+  }
+  @include media-breakpoint-up(xl) {
+    .logo-hero-svg {
+      width: 30rem;
+      margin-left: 5rem;
+    }
+   }
+
+
+  // @include media-breakpoint-up(lg) {
+  //   h1 {
+  //     font-size: 4.25rem;
+  //   }
+
+  //   p {
+  //     font-size: 2rem;
+  //   }
+    
+  // }
+}
+
+.dn-arrow-cont {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translate(-50%, -10%);
+  width: 80%;
+
+  img {
+    width: 2rem;
+  }
+
+  // 576px
+  @include media-breakpoint-up(md) {
+    img {
+      width: 4rem;
+    }
+  }
+
+  .dn-arrow {
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+  }
+  
+}
+
+
+
+
+
+
+
+  

@@ -1,0 +1,94 @@
+
+html {
+    font-size: .8rem;
+  }
+  
+  // 576px 
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: .8rem;
+    }
+  }
+  
+  // 768px
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: .7rem;
+    }
+  }
+  
+  // 992px
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: .8rem;
+    }
+  }
+
+  // 1200px
+  @include media-breakpoint-up(xl) {
+    html {
+      font-size: .8rem;
+    }
+  }
+
+
+
+//   html {
+//     font-size: 1 rem;
+//   }
+  
+//   // 576px 
+//   @include media-breakpoint-up(sm) {
+//     html {
+//       font-size: 1.2 rem;
+//     }
+//   }
+  
+//   // 768px
+//   @include media-breakpoint-up(md) {
+//     html {
+//       font-size: 1.4rem;
+//     }
+//   }
+  
+//   // 992px
+//   @include media-breakpoint-up(lg) {
+//     html {
+//       font-size: 1.6rem;
+//     }
+//   }
+
+
+.navbar {
+    padding: $navbar-padding-y $navbar-padding-x;
+    background: white;
+    
+        .navbar-logo {
+            width: 1rem;
+        }
+        
+        @include media-breakpoint-up(sm) {
+            .navbar-logo {
+                width: 14.25rem;
+            }
+            
+          }
+        
+        .nav-link {
+            font-family: $navbar-font-family;
+            color: $navbar-font-color; 
+            font-weight: 400;
+        }
+}
+
+figure {
+    margin: 0;
+}
+
+// a {
+//      color: $link-color;
+
+//     &:hover {
+//          color: $link-hover-color;
+//     }
+//  }

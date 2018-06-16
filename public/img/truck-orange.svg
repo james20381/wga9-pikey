@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   height="150"
+   width="152.52919"
+   xml:space="preserve"
+   viewBox="0 0 152.52919 150"
+   y="0px"
+   x="0px"
+   id="Layer_1"
+   version="1.1"><metadata
+   id="metadata5959"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs5957" />
+<g
+   style="fill:#f6923d;fill-opacity:1"
+   transform="matrix(0.77821012,0,0,0.77821012,0,-1.2645914)"
+   id="g5922">
+	<g
+   style="fill:#f6923d;fill-opacity:1"
+   id="g5920">
+		<g
+   style="fill:#f6923d;fill-opacity:1"
+   id="g5918">
+			<path
+   style="fill:#f6923d;fill-opacity:1"
+   id="path5906"
+   d="M 185.493,145.375 H 182 v -17.5 c 0,-12.322 -9.131,-22.548 -21,-24.25 v -21.25 h 17.5 c 1.933,0 3.5,-1.566 3.5,-3.5 v -31.5 c 0,-1.934 -1.567,-3.5 -3.5,-3.5 H 161 v -17.5 c 0,-1.934 -1.567,-3.5 -3.5,-3.5 H 42 V 1.625 h -7 v 24.75 7 10.5 H 17.5 c -1.933,0 -3.5,1.566 -3.5,3.5 v 31.5 c 0,1.934 1.567,3.5 3.5,3.5 H 35 v 21.246 c -11.855,1.688 -21,11.922 -21,24.254 v 17.5 H 10.507 C 4.713,145.375 0,150.081 0,155.868 v 14.014 c 0,5.787 4.713,10.493 10.507,10.493 H 21 v 10.5 c 0,1.934 1.567,3.5 3.5,3.5 H 56 c 1.933,0 3.5,-1.566 3.5,-3.5 v -10.5 h 77 v 10.5 c 0,1.934 1.567,3.5 3.5,3.5 h 31.5 c 1.933,0 3.5,-1.566 3.5,-3.5 v -10.5 h 10.493 c 5.794,0 10.507,-4.706 10.507,-10.493 v -14.014 c 0,-5.787 -4.713,-10.493 -10.507,-10.493 z M 161,50.875 h 14 v 24.5 h -14 z m -140,24.5 v -24.5 h 14 v 24.5 z m 0,52.5 c 0,-9.649 7.836,-17.5 17.466,-17.5 H 38.5 c 1.933,0 3.5,-1.566 3.5,-3.5 v -28 -31.5 -14 -3.5 h 112 v 17.5 31.5 28 c 0,1.934 1.601,3.5 3.534,3.5 9.63,0 17.466,7.851 17.466,17.5 v 17.5 h -42 v -42 c 0,-1.934 -1.567,-3.5 -3.5,-3.5 h -63 c -1.933,0 -3.5,1.566 -3.5,3.5 v 42 H 21 Z m 105,-21 v 38.5 H 70 v -38.5 z m -73.5,80.5 H 28 v -7 h 24.5 z m 115.5,0 h -24.5 v -7 H 168 Z m 21,-17.493 c 0,1.928 -1.574,3.493 -3.507,3.493 H 171.5 140 56 24.5 10.507 C 8.54,173.375 7,171.84 7,169.882 v -14.014 c 0,-1.928 1.574,-3.493 3.507,-3.493 h 6.993 49 63 49 6.993 c 1.967,0 3.507,1.535 3.507,3.493 z" />
+			<rect
+   style="fill:#f6923d;fill-opacity:1"
+   id="rect5908"
+   height="7"
+   width="35"
+   y="113.875"
+   x="80.5" />
+			<rect
+   style="fill:#f6923d;fill-opacity:1"
+   id="rect5910"
+   height="7"
+   width="35"
+   y="127.875"
+   x="80.5" />
+			<path
+   style="fill:#f6923d;fill-opacity:1"
+   id="path5912"
+   d="m 52.5,120.875 h -21 c -1.933,0 -3.5,1.566 -3.5,3.5 v 14 c 0,1.934 1.567,3.5 3.5,3.5 h 21 c 1.933,0 3.5,-1.566 3.5,-3.5 v -14 c 0,-1.935 -1.567,-3.5 -3.5,-3.5 z m -3.5,14 H 35 v -7 h 14 z" />
+			<path
+   style="fill:#f6923d;fill-opacity:1"
+   id="path5914"
+   d="m 140,124.375 v 14 c 0,1.934 1.567,3.5 3.5,3.5 h 21 c 1.933,0 3.5,-1.566 3.5,-3.5 v -14 c 0,-1.934 -1.567,-3.5 -3.5,-3.5 h -21 c -1.933,0 -3.5,1.565 -3.5,3.5 z m 7,3.5 h 14 v 7 h -14 z" />
+			<path
+   style="fill:#f6923d;fill-opacity:1"
+   id="path5916"
+   d="m 52.5,89.375 h 91 c 1.933,0 3.5,-1.566 3.5,-3.5 v -42 c 0,-1.934 -1.567,-3.5 -3.5,-3.5 h -91 c -1.933,0 -3.5,1.566 -3.5,3.5 v 42 c 0,1.934 1.567,3.5 3.5,3.5 z m 3.5,-42 h 84 v 35 H 56 Z" />
+		</g>
+	</g>
+</g>
+<g
+   transform="translate(0,-44.375)"
+   id="g5924">
+</g>
+<g
+   transform="translate(0,-44.375)"
+   id="g5926">
+</g>
+<g
+   transform="translate(0,-44.375)"
+   id="g5928">
+</g>
+<g
+   transform="translate(0,-44.375)"
+   id="g5930">
+</g>
+<g
+   transform="translate(0,-44.375)"
+   id="g5932">
+</g>
+<g
+   transform="translate(0,-44.375)"
+   id="g5934">
+</g>
+<g
+   transform="translate(0,-44.375)"
+   id="g5936">
+</g>
+<g
+   transform="translate(0,-44.375)"
+   id="g5938">
+</g>
+<g
+   transform="translate(0,-44.375)"
+   id="g5940">
+</g>
+<g
+   transform="translate(0,-44.375)"
+   id="g5942">
+</g>
+<g
+   transform="translate(0,-44.375)"
+   id="g5944">
+</g>
+<g
+   transform="translate(0,-44.375)"
+   id="g5946">
+</g>
+<g
+   transform="translate(0,-44.375)"
+   id="g5948">
+</g>
+<g
+   transform="translate(0,-44.375)"
+   id="g5950">
+</g>
+<g
+   transform="translate(0,-44.375)"
+   id="g5952">
+</g>
+</svg>

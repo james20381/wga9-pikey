@@ -1,0 +1,88 @@
+.contain {
+    position: relative;
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        opacity: 0;
+        transition: .5s ease;
+        cursor: pointer;
+      }
+      
+      &:hover .overlay {
+        opacity: .7;
+      }
+
+
+
+//.opacity {
+    // background-color: black;
+    // opacity: 1;
+    // transition: .5s ease;
+    // cursor: pointer;
+
+    // &:hover {
+        // background-color: rgba(0, 0, 0, 0.5);
+        //opacity: .5;
+
+        
+    //}
+//}
+
+
+
+
+
+
+      
+      .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+
+        h1 {
+            color: white;
+            font-size: 1.625rem;
+            margin-bottom: .5rem;
+        }
+
+        span {
+            font-family: 'Open Sans' sans-serif;
+            color: white;
+            font-size: 1.0625rem;
+            font-weight: 300;
+
+        }
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+// .hover12 figure {
+// 	background: #1abc9c;
+// }
+// .hover12 figure img {
+// 	opacity: 1;
+// 	-webkit-transition: .3s ease-in-out;
+// 	transition: .3s ease-in-out;
+// }
+// .hover12 figure:hover img {
+// 	opacity: .5;
+// }

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   height="200.05646"
+   width="174.64893"
+   id="svg6"
+   version="1.1"
+   viewBox="0 0 174.64893 200.05646">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <path
+     d="m 66.742807,101.90912 7.887328,-11.830986 c 6.511385,5.09009 7.006708,7.74497 9.839049,12.189456 C 98.983445,73.751368 114.02694,60.874908 135.17287,45.364475 114.70289,66.402742 102.35212,80.588504 83.90524,123.67383 77.520448,113.30987 73.127205,102.53144 66.742019,101.90716 Z"
+     id="path2"
+     style="fill:#5bb3fb;fill-opacity:1;stroke:#5bb3fb;stroke-width:0.39436647;stroke-opacity:1" />
+  <text
+     id="text824"
+     y="107.70558"
+     x="8.7782812"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:43.11910248px;line-height:1.25;font-family:Stencil;-inkscape-font-specification:'Stencil Bold';letter-spacing:0px;word-spacing:0px;fill:#242424;fill-opacity:1;stroke:none;stroke-width:1.07797766;"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Stencil;-inkscape-font-specification:'Stencil Bold';letter-spacing:4.56053638px;stroke-width:1.07797766;fill:#242424;fill-opacity:1;"
+       y="107.70558"
+       x="8.7782812"
+       id="tspan822">P I K E</tspan></text>
+</svg>
