@@ -25,11 +25,28 @@
         letter-spacing: .5rem;
         text-indent: .5rem;
         font-size: 1.5rem;
+        position: relative;
+        
+
+        &::before, &::after {
+            position: absolute;
+            top: 51%;
+            overflow: hidden;
+            width: 100%;
+            height: 1px;
+            content: '\a0';
+            background-color: lightgray;
+        }
+
+        &::before {
+            margin-left: -103%;
+            text-align: right;
+        }
     }
 
     p {
         margin-bottom: 1rem;
-        
+        margin-top: 4rem;
     }
 
     a {
@@ -52,6 +69,23 @@
         letter-spacing: .5rem;
         text-indent: .5rem;
         font-size: 1.5rem;
+        position: relative;
+        
+
+        &::before, &::after {
+            position: absolute;
+            top: 51%;
+            overflow: hidden;
+            width: 100%;
+            height: 1px;
+            content: '\a0';
+            background-color: lightgray;
+        }
+
+        &::before {
+            margin-left: -103%;
+            text-align: right;
+        }
     }
 
     h2 {
@@ -84,10 +118,26 @@
     }
 
     h1 {
-        margin-bottom: 4rem;
         letter-spacing: .5rem;
         text-indent: .5rem;
         font-size: 1.5rem;
+        position: relative;
+        
+
+        &::before, &::after {
+            position: absolute;
+            top: 51%;
+            overflow: hidden;
+            width: 100%;
+            height: 1px;
+            content: '\a0';
+            background-color: lightgray;
+        }
+
+        &::before {
+            margin-left: -103%;
+            text-align: right;
+        }
     }
 
     h2 {

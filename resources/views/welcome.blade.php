@@ -6,11 +6,11 @@
         <div class="row">
 
             <div class="col text-center">
-                <hr style="2px solid red;">
-                <img src="{{asset('img/heading-dec-left.svg')}}" alt="Heading decoration" style="display: inline; margin-right: 3rem; width: 1.5rem;">
-                <h1 style="display: inline-block; margin-bottom: 0;">ABOUT US</h1><img src="{{asset('img/heading-dec-right.svg')}}" alt="Heading decoration" style="display: inline; margin-left: 3rem; width: 1.5rem;">
+                
+                
+                <h1 style="display: inline-block; margin-bottom: 0;">ABOUT US</h1>
 
-                <hr style="2px solid red; margin-bottom: 4rem;">
+                
                 <p class="lead text-col">Eu cillum qui deserunt cupidatat ea elit ut ea ipsum culpa officia duis. Lorem Lorem do ipsum eu irure ea.
                     <span
                         class="d-none d-lg-block">
@@ -29,11 +29,11 @@
     <div class="container section" style="position: relative;">
         <div class="row">
             <div class="col text-center">
-                <hr style="2px solid red;">
-                <img src="{{asset('img/heading-dec-left.svg')}}" alt="Heading decoration" style="display: inline; margin-right: 3rem; width: 1.5rem;">
-                <h1 style="display: inline-block; margin-bottom: 0;">PRODUCTS</h1><img src="{{asset('img/heading-dec-right.svg')}}" alt="Heading decoration" style="display: inline; margin-left: 3rem; width: 1.5rem;">
+                
+                
+                <h1 style="display: inline-block; margin-bottom: 6rem;">PRODUCTS</h1>
 
-                <hr style="2px solid red; margin-bottom: 6rem;">
+                
             </div>
         </div>
 
@@ -67,11 +67,11 @@
     <div class="container section" style="position: relative;">
         <div class="row">
             <div class="col text-center">
-                <hr style="2px solid red;">
-                <img src="{{asset('img/heading-dec-left.svg')}}" alt="Heading decoration" style="display: inline; margin-right: 3rem; width: 1.5rem;">
-                <h1 style="display: inline-block; margin-bottom: 0;">SERVICES</h1><img src="{{asset('img/heading-dec-right.svg')}}" alt="Heading decoration" style="display: inline; margin-left: 3rem; width: 1.5rem;">
+                
+                
+                <h1 style="display: inline-block; margin-bottom: 6rem;">SERVICES</h1>
 
-                <hr style="2px solid red; margin-bottom: 6rem;">
+                
             </div>
         </div>
 
