@@ -29,11 +29,11 @@
             <div class="row">
                 <div class="col-sm-6">
                     <img src="{{ asset('img/phone.svg') }}" class="img-fluid sr-contact" alt="" style="margin-bottom: 2rem;">
-                    <p>123-456-7890</p>
+                    <p>0466 661 823</p>
                 </div>
                 <div class="col-sm-6 email">
                     <img src="{{ asset('img/mail.svg') }}" class="img-fluid sr-contact" alt="" style="margin-bottom: 2rem;">
-                    <a href="mailto:your-email@your-domain.com">mattpike@gmail.com</a>
+                    <a href="mailto:your-email@your-domain.com">matt@pikecom.com.au</a>
                 </div>
                 
             </div>
@@ -53,7 +53,7 @@
                     <a class="nav-link js-scroll-trigger" href="#services"><span>SERVICES</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#contact"><span>CONTACT</span></a>
+                    <a class="nav-link js-scroll-trigger" href="#footer"><span>CONTACT</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('admin') }}"><span>LOGIN</span></a>

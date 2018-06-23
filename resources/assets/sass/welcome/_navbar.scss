@@ -13,23 +13,24 @@
       > li.nav-item {
          > a.nav-link,
         > a.nav-link:focus {
-          font-size: 1rem;
+          font-size: 1.2rem;
           letter-spacing: .1rem;
           font-weight: 700;
           color: black;
+          // transition: 1s;
           &:hover {
-            color: #656565;
+            color: #806D33;
             font-weight: 700;
             // border-bottom: 3px solid #fba35b;
           }
           &.active {
-            color: #656565 !important;
+            color: #806D33 !important;
             font-weight: 700;
             
 
             @include media-breakpoint-up(lg) {
               &.active {
-                border-bottom: 2px solid #7b7b7b;
+                border-bottom: 2px solid #806D33;
               }
             }
           }
@@ -51,7 +52,7 @@
           display: block;
           margin-top: 5px;
           right: 0;
-          background: #7b7b7b;
+          background: #806D33;
           transition: width .2s ease;
           -webkit-transition: width .2s ease;
         }
@@ -59,13 +60,13 @@
         .link:hover:after{
           width: 100%;
           left: 0;
-          background: #7b7b7b;
+          background: #806D33;
         }
   
         .link:active:after{
           width: 100%;
           left: 0;
-          background: #7b7b7b;
+          background: #806D33;
         }
       }
 
@@ -109,6 +110,11 @@
   .svg {
     width: 5rem;
     height: auto;
+    
+
+    .cls-2 {
+      fill: black;
+    }
   }
 
   @include media-breakpoint-up(md) {

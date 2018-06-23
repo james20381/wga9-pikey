@@ -100,9 +100,9 @@
     </div>
 </section>
 
-<section>
+{{-- <section>
     @include('partials._gallery')
-</section>
+</section> --}}
 
 {{-- <section id="contact">
     <div class="container section">
