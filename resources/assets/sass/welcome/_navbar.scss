@@ -9,6 +9,10 @@
     transition: top ease-out 0.7s;
     // @include transition-all;
 
+    .navbar-brand {
+      padding-top: .5rem;
+    }
+
     .navbar-nav {
       > li.nav-item {
          > a.nav-link,

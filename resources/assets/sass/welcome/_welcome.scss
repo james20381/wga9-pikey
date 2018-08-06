@@ -1,5 +1,4 @@
 // Welcome Page Globals
-
 .section {
     @include section-heading;
     padding: 4rem 1rem;
@@ -41,6 +40,10 @@
         h1 {
             font-size: 2.375rem;
         }
+
+        p {
+            font-size: 1.2rem;
+        }
     }
 }
 
@@ -71,6 +74,10 @@
 
         h2 {
             font-size: 1.75rem;
+        }
+
+        p {
+            font-size: 1.2rem;
         }
 }}
 
@@ -114,9 +121,9 @@
             font-size: 1.75rem;
         }
 
-        // p {
-        //     margin-bottom: 0;
-        // }
+        p {
+            font-size: 1.2rem;
+        }
     }
 
     @include media-breakpoint-up(lg) {

@@ -68,7 +68,7 @@
 <div class="container">
     <div class="row">
         <div class="col copyright text-center">
-            <p class="text-muted">Copyright &copy; WGA <?php echo date("Y"); ?><a href="#"> Imprint</a></p>
+            <p class="text-muted">Copyright &copy; PC <?php echo date("Y"); ?><a href="#"> Imprint</a></p>
         </div>
     </div>
 </div>

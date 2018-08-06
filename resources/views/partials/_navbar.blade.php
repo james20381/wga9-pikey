@@ -22,9 +22,9 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger link" href="#footer">CONTACT</a>
         </li>
-        <li class="nav-item">
+        {{-- <li class="nav-item">
           <a class="nav-link link" href="{{ route('admin') }}">LOGIN</a>
-        </li>
+        </li> --}}
       </ul>
     </div>
   </div>

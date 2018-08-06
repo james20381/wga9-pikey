@@ -5,7 +5,7 @@
     <div class="carousel-item active">
       
       {{-- <div class="header-img slide-1"></div><img class="d-block w-100" src="/img/grain-chute-xl.jpg" alt="First slide"> --}}
-      <video loop autoplay muted id="video" style="max-width: 100%;" class="d-none d-xl-block">
+      <video loop autoplay muted id="video" style="min-width: 100%;" class="d-none d-xl-block">
         <source src="{{asset('img/video/farm.mp4')}}">
         {{-- <source src="movie.ogg" type="video/ogg"> --}}
         Your browser does not support the video tag.
@@ -25,7 +25,7 @@
     <div class="carousel-item">
         {{--
         <div class="header-img slide-1"></div> --}} {{-- <img class="d-block w-100" src="/img/grain-chute-xl.jpg" alt="First slide"> --}}
-        <video loop autoplay muted id="video" style="max-width: 100%;" class="d-none d-xl-block">
+        <video loop autoplay muted id="video" style="min-width: 100%;" class="d-none d-xl-block">
           <source src="{{asset('img/video/old-tractor.mp4')}}">
           {{-- <source src="movie.ogg" type="video/ogg"> --}}
           Your browser does not support the video tag.
@@ -34,7 +34,7 @@
         
       </div>
       <div class="carousel-item">
-          <video loop autoplay muted id="video" style="max-width: 100%;" class="d-none d-xl-block">
+          <video loop autoplay muted id="video" style="min-width: 100%;" class="d-none d-xl-block">
               <source src="{{asset('img/video/wheat-field.mp4')}}">
               {{-- <source src="movie.ogg" type="video/ogg"> --}}
               Your browser does not support the video tag.
